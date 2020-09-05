@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="controlmypc commands" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cmpc.cf" />
+    <meta
+      property="og:description"
+      content="commands for twitch.tv/controlmypc"
+    />
+    <title>cmpc commands</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <style>
+      /* windows 98 background pog */
+      body {
+        background-color: teal;
+      }
+
+      /* group windows together and center them */
+      div.window-container {
+        position: absolute;
+        width: 55%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: auto;
+      }
+
+      /* separate all windows by 10px */
+      div.window-container > div.window:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      * {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="window-container">
+      <!-- ween's experimentation zone -->
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">
+            commands for twitch.tv/controlmypc
+          </div>
+          <div class="title-bar-controls">
+            <button
+              onclick="window.location.href='https://stagingcmpc.glitch.me/'"
+              aria-label="Minimize"
+            ></button>
+            <button
+              onclick="window.location.href='https://stagingcmpc.glitch.me/'"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <!-- dynamically set this with a php backend -->
+          <p>
+            It could take some time before your command executes because of
+            stream delay.
+          </p>
+          <p>
+            Use a pc for your own sake, mobile delay is horrible. (especially
+            ios)
+          </p>
+          <p></p>
+          <p>
+            If twitch prohibits you from saying the same command over and over
+            again. Differentiate your messages by using capitals. The bot will
+            still pick this up.
+          </p>
+          <br />
+          <p>
+            !modalert (alerts the mods in discord if something wierd is happening with stream. PLEASE DON'T SPAM THIS)
+          </p>
+          <br>
+          <p>Keyboard:</p>
+          <p>type {text} (types text example: type super sonic racing)</p>
+          <p>enter (clicks enter)</p>
+          <p>select all (ctrl A)</p>
+          <p>backspace (clicks backspace)</p>
+          <p>arrow down/up/right/left (presses arrow keys)</p>
+          <p>w/a/s/d for {seconds} (holds w,a,s or d for up to 10 seconds example: w for 4)</p>
+          <p>arrow down/up/right/left for {seconds} (holds arrow keys for up to 10 seconds example: arrow down for 4)</p>
+          <p>tab (presses tab)</p>
+          <p>space (presses space)</p>
+          <p>escape (presses escape key)</p>
+          <p>
+            windows key (presses windows key)
+          </p>
+          <p>
+            control w (presses control w)
+          </p>
+          <p>
+            control t (presses control t)
+          </p>
+          <p></p>
+          <p>Ask other people in chat before you use:</p>
+          <p>quit (alt f4)</p>
+          <p>close tab (control w)</p>
+          <p></p>
+          <br />
+          <p>Mouse:</p>
+          <p>click (clicks mouse)</p>
+          <p>double click (clicks 2 times fast)</p>
+          <p>right click (rightclicks mouse)</p>
+          <p>hold mouse (holds left click for 6 sec)</p>
+          <p>hold mouse long (holds left click for 10 sec)</p>
+          <p></p>
+          <br />
+          <p>Mouse movement:</p>
+          <p>left/right/up/down (moves pointer)</p>
+          <p>light left/right/up/down (moves pointer less)</p>
+          <p>
+            super light left/right/up/down (moves pointer even less)
+          </p>
+          <p>
+            go to {location} (moves pointer to a specific location example: go to 100 100)
+          </p>
+          <p>where? (shows the position of the mouse)</p>
+          <p></p>
+          <br />
+          <p>ONLY USE IF MOUSE IS STUCK IN A CORNER!</p>
+          <p>its stuck (resets the pointer)</p>
+          <p></p>
+          <br />
+          <p>Dragging (good for paint)</p>
+          <p>drag mouse up/down/left/right (moves mouse while holding left mouse button)</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
